@@ -1,0 +1,14 @@
+name = "office-user-auto-create"
+account_id = ''
+type = 'webpack'
+workers_dev = true
+webpack_config = 'webpack.config.js'
+
+[vars]
+_ANNOUNCEMENT = "公益软件"
+_GET_CODE_LINK = "https://some.link"
+_AAD_CONFIG = "{ \"bd1e239c-e668-4bec-ae42-e3866ebd8152\": \"\", \"d4f0d36b-69b6-49e5-afb8-f7db9c3f505a\": \"\", \"clientSecret\": \"\" }"
+_OFFICE_DOMAINS = "[\"domain1.com\", \"sag028.onmicrosoft.com\"]"
+_OFFICE_SUBSCRIPTIONS = "[{ \"name\": \"subscription 1\", \"sku\": \"skuid\" }, { \"name\": \"subscription 2\", \"sku\": \"skuid\" }]"
+_USERNAME_BLACKLIST = "[\"admin\", \"gay\"]"
+_GENERATE_CODES_PATH_SECRET = "https://key.leleblog.site/<Ez2014117>/<30>"
